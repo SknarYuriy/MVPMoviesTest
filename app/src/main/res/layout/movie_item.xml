@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="120dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgPoster"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:src="@android:drawable/star_big_on"
+        />
+<TextView
+    android:layout_marginLeft="10dp"
+    android:id="@+id/txtTitle"
+    android:text="Title"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:layout_toRightOf="@id/imgPoster"/>
+    <TextView
+        android:id="@+id/txtOverview"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="13sp"
+        android:text="sjk sjdch ksjdch ksch j ds ,snd ,msnd ,msn d,mds"
+        android:layout_toRightOf="@id/imgPoster"
+        android:layout_below="@id/txtTitle"
+        android:maxLines="3"
+        android:layout_alignBottom="@id/imgPoster"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+</RelativeLayout>
